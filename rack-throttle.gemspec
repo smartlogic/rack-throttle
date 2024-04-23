@@ -38,9 +38,9 @@ Gem::Specification.new do |gem|
 
   gem.add_runtime_dependency     'rack',      '>= 1.0.0'
 
-  gem.post_install_message       = <<-POST
-rack-throttle is no longer under active development. Please consider
-using https://github.com/rack/rack-attack instead as it is
-more feature rich & well supported.
-  POST
+#   gem.post_install_message       = <<-POST
+# rack-throttle is no longer under active development. Please consider
+# using https://github.com/rack/rack-attack instead as it is
+# more feature rich & well supported.
+#   POST
 end
