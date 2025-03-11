@@ -25,7 +25,6 @@ Gem::Specification.new do |gem|
   gem.require_paths      = %w(lib)
   gem.extensions         = %w()
   gem.test_files         = %w()
-  gem.has_rdoc           = false
 
   gem.required_ruby_version      = '>= 1.8.2'
   gem.requirements               = []
