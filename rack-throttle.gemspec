@@ -21,11 +21,9 @@ Gem::Specification.new do |gem|
   gem.files              = %w(AUTHORS README.md UNLICENSE VERSION) + Dir.glob('lib/**/*.rb')
   gem.bindir             = %q(bin)
   gem.executables        = %w()
-  gem.default_executable = gem.executables.first
   gem.require_paths      = %w(lib)
   gem.extensions         = %w()
   gem.test_files         = %w()
-  gem.has_rdoc           = false
 
   gem.required_ruby_version      = '>= 1.8.2'
   gem.requirements               = []
@@ -38,9 +36,9 @@ Gem::Specification.new do |gem|
 
   gem.add_runtime_dependency     'rack',      '>= 1.0.0'
 
-  gem.post_install_message       = <<-POST
-rack-throttle is no longer under active development. Please consider
-using https://github.com/rack/rack-attack instead as it is
-more feature rich & well supported.
-  POST
+#   gem.post_install_message       = <<-POST
+# rack-throttle is no longer under active development. Please consider
+# using https://github.com/rack/rack-attack instead as it is
+# more feature rich & well supported.
+#   POST
 end
